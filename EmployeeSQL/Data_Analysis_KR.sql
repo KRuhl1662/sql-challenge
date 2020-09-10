@@ -47,3 +47,10 @@
 -- INNER JOIN public."Departments" AS d ON
 -- de.dept_no = d.dept_no
 -- WHERE d.dept_name = 'Sales' OR d.dept_name = 'Development';
+
+-- ## Task 8
+-- In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+-- SELECT last_name, COUNT (last_name)
+-- FROM public."Employees"
+-- GROUP BY last_name
+-- ORDER BY COUNT (last_name) DESC;
