@@ -32,8 +32,8 @@ CREATE TABLE "Managers" (
 );
 
 CREATE TABLE "Dept_Emp" (
-    "dept_no" varchar   NOT NULL,
     "emp_no" int   NOT NULL,
+    "dept_no" varchar   NOT NULL,
     CONSTRAINT "pk_Dept_Emp" PRIMARY KEY (
         "dept_no","emp_no"
      )
